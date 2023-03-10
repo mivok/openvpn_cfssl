@@ -33,4 +33,4 @@ cfssl gencert -ca certs/ca.pem -ca-key certs/ca-key.pem \
 
 # Make ta.key
 echo "# Making ta.key"
-openvpn --genkey --secret certs/ta.key
+openvpn --genkey secret certs/ta.key
